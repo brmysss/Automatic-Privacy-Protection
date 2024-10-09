@@ -3,6 +3,10 @@
 
 借鉴了[jsfaint/auto-incognito：自动将黑名单中的网站设置为隐身模式](https://github.com/jsfaint/auto-incognito)中的代码并进行修改。
 
+---
+个人博客主页：https://www.brmys.top
+支持在follow里RSS订阅搜索：https://www.brmys.top/rss/feed.xml
+
 # 功能介绍：
 1、安装完插件后点击插件图标，第一次会提醒你输入「新密码」并保存
 
