@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>隐私模式设置</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        input, button {
+            margin: 5px 0;
+        }
+        #blacklist {
+            list-style-type: none;
+            padding: 0;
+        }
+        #blacklist li {
+            cursor: pointer;
+            padding: 5px;
+            border-bottom: 1px solid #eee;
+        }
+        #blacklist li:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="password-setup" style="display: none;">
+        <h3>设置密码</h3>
+        <input type="password" id="new-password" placeholder="输入新密码">
+        <input type="password" id="confirm-password" placeholder="确认新密码">
+        <button id="save-password">保存密码</button>
+    </div>
+
+    <div id="password-prompt" style="display: none;">
+        <input type="password" id="password-input" placeholder="请输入密码">
+        <button id="submit-password">提交</button>
+        <button id="reset-password">重置密码</button>
+    </div>
+    
+    <div id="content" style="display: none;">
+        <h2>自动隐私模式设置</h2>
+        <button id="addCurrentTabButton">添加当前网站到黑名单</button>
+        <input type="text" id="urlInput" placeholder="输入网址">
+        <button id="addButton">添加到黑名单</button>
+        <h3>黑名单列表：</h3>
+        <ul id="blacklist"></ul>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
