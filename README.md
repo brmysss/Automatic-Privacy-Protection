@@ -5,10 +5,13 @@
 
 # 功能介绍：
 1、安装完插件后点击插件图标，第一次会提醒你输入「新密码」并保存
+
 <img width="394" alt="image" src="https://github.com/user-attachments/assets/4e8e318e-4ee8-4bed-8c68-fa2b77468642">
 
 2、访问指定网页的时候点击插件图标-输入密码-提交-「添加当前网站到黑名单」
+
 <img width="375" alt="image" src="https://github.com/user-attachments/assets/07d46006-e871-4dfd-b001-e5bc30017e1a">
+
 即可自定打开【无痕模式】进行浏览
 
 3、之后再次访问该网站的时候都会自动进入无痕模式
